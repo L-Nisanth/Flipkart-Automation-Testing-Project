@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-08T18:11:55 IST" name="Flipkart" finished-at="2023-12-08T18:12:15 IST" duration-ms="20169">
+    <groups>
+    </groups>
+    <test started-at="2023-12-08T18:11:55 IST" name="Homepage" finished-at="2023-12-08T18:11:59 IST" duration-ms="4162">
+      <class name="testCases.O1_Homepage_Actions">
+        <test-method signature="iphoneSearch()[pri:0, instance:testCases.O1_Homepage_Actions@47eaca72]" started-at="2023-12-08T18:11:55 IST" name="iphoneSearch" finished-at="2023-12-08T18:11:59 IST" duration-ms="3911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iphoneSearch -->
+      </class> <!-- testCases.O1_Homepage_Actions -->
+    </test> <!-- Homepage -->
+    <test started-at="2023-12-08T18:11:59 IST" name="DataScraping" finished-at="2023-12-08T18:12:05 IST" duration-ms="5404">
+      <class name="testCases.O2_WebScraping_Actions">
+        <test-method signature="exportDataToExcel()[pri:0, instance:testCases.O2_WebScraping_Actions@4c12331b]" started-at="2023-12-08T18:11:59 IST" name="exportDataToExcel" finished-at="2023-12-08T18:12:05 IST" duration-ms="5396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportDataToExcel -->
+      </class> <!-- testCases.O2_WebScraping_Actions -->
+    </test> <!-- DataScraping -->
+    <test started-at="2023-12-08T18:12:05 IST" name="Choose_Iphone12_64Gb_variant " finished-at="2023-12-08T18:12:05 IST" duration-ms="218">
+      <class name="testCases.O3_Select_iphone12_64gb_Actions">
+        <test-method signature="chooseIphone12_64Gb()[pri:0, instance:testCases.O3_Select_iphone12_64gb_Actions@5542c4ed]" started-at="2023-12-08T18:12:05 IST" name="chooseIphone12_64Gb" finished-at="2023-12-08T18:12:05 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseIphone12_64Gb -->
+      </class> <!-- testCases.O3_Select_iphone12_64gb_Actions -->
+    </test> <!-- Choose_Iphone12_64Gb_variant  -->
+    <test started-at="2023-12-08T18:12:05 IST" name="addToCart" finished-at="2023-12-08T18:12:10 IST" duration-ms="5391">
+      <class name="testCases.O4_AddToCart_Actions">
+        <test-method signature="clickAddToCart()[pri:0, instance:testCases.O4_AddToCart_Actions@6a78afa0]" started-at="2023-12-08T18:12:05 IST" name="clickAddToCart" finished-at="2023-12-08T18:12:10 IST" duration-ms="5359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAddToCart -->
+      </class> <!-- testCases.O4_AddToCart_Actions -->
+    </test> <!-- addToCart -->
+    <test started-at="2023-12-08T18:12:10 IST" name="placeOrder" finished-at="2023-12-08T18:12:15 IST" duration-ms="4562">
+      <class name="testCases.O5_PlaceOrder_Actions">
+        <test-method signature="orderPlacement()[pri:0, instance:testCases.O5_PlaceOrder_Actions@6989da5e]" started-at="2023-12-08T18:12:10 IST" name="orderPlacement" finished-at="2023-12-08T18:12:15 IST" duration-ms="4552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderPlacement -->
+      </class> <!-- testCases.O5_PlaceOrder_Actions -->
+    </test> <!-- placeOrder -->
+    <test started-at="2023-12-08T18:12:15 IST" name="checkout" finished-at="2023-12-08T18:12:15 IST" duration-ms="167">
+      <class name="testCases.O6_VerifyCheckoutPage">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testCases.O6_VerifyCheckoutPage@229f66ed]" started-at="2023-12-08T18:11:45 IST" name="launchBrowser" finished-at="2023-12-08T18:11:55 IST" duration-ms="10184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="checkoutPage()[pri:0, instance:testCases.O6_VerifyCheckoutPage@229f66ed]" started-at="2023-12-08T18:12:15 IST" name="checkoutPage" finished-at="2023-12-08T18:12:15 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.O6_VerifyCheckoutPage@229f66ed]" started-at="2023-12-08T18:12:15 IST" name="closeBrowser" finished-at="2023-12-08T18:12:16 IST" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.O6_VerifyCheckoutPage -->
+    </test> <!-- checkout -->
+  </suite> <!-- Flipkart -->
+</testng-results>

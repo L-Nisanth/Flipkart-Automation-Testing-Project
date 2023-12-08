@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Flipkart">
+	
+  <test  name="Homepage">
+    <classes> 
+      <class name="testCases.O1_Homepage_Actions"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="DataScraping">
+	  <classes>
+		  <class name="testCases.O2_WebScraping_Actions"></class>
+	  </classes>
+  </test>
+  
+  <test name="Choose_Iphone12_64Gb_variant ">
+	  <classes>
+		  <class name="testCases.O3_Select_iphone12_64gb_Actions"></class>
+	  </classes>
+  </test>
+ 
+ <test name="addToCart">
+	 <classes>
+		 <class name="testCases.O4_AddToCart_Actions"></class>
+	 </classes>
+ </test>
+ 
+ <test name="placeOrder">
+	 <classes>
+		 <class name="testCases.O5_PlaceOrder_Actions"></class>
+	 </classes>
+ </test>
+  
+ <test name="checkout">
+	 <classes>
+		 <class name="testCases.O6_VerifyCheckoutPage"></class>
+	 </classes>
+ </test>
+ 
+</suite> <!-- Suite -->
