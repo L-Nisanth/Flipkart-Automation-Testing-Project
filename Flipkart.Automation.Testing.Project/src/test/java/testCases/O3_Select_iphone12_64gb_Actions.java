@@ -7,6 +7,10 @@ import commonMethods.CommonFunctions;
 import pageObjects.O2_Iphone12_listing_page_objects;
 
 public class O3_Select_iphone12_64gb_Actions extends CommonFunctions {
+	
+	
+	// ********* selecting iphone 12 64gb variant from the list of iphones ***********
+	
 
 	@Test
 	public void chooseIphone12_64Gb() throws InterruptedException {
@@ -14,7 +18,6 @@ public class O3_Select_iphone12_64gb_Actions extends CommonFunctions {
 		PageFactory.initElements(driver, O2_Iphone12_listing_page_objects.class);
 
 		O2_Iphone12_listing_page_objects.iphone_12_64gb.click();
-        
-		
+
 	}
 }

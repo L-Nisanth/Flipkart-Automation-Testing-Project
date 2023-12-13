@@ -9,6 +9,11 @@ import commonMethods.CommonFunctions;
 import pageObjects.O4_Cart_page_objects;
 
 public class O5_PlaceOrder_Actions extends CommonFunctions {
+	
+	//verifying title
+	//Placing order
+	
+	
 
 	@Test
 	public void orderPlacement() {

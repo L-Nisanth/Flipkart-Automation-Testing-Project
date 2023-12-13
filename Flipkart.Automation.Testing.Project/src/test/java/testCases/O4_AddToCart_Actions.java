@@ -14,6 +14,11 @@ import pageObjects.O3_Iphone12_64Gb_page_objects;
 
 public class O4_AddToCart_Actions extends CommonFunctions{
     
+	//verifying title of the page
+	//adding produce to cart
+	
+	
+	
 	@Test
 	public void clickAddToCart() {
 
